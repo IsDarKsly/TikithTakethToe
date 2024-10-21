@@ -117,9 +117,11 @@ int checkVictory(char *board, int x, int y)
 	}
 
 	// Debugg check diag/hor/ver
+	/*
 	printf("\nDiag : %d\n", diag);
 	printf("\nHor : %d\n", hor);
         printf("\nVer : %d\n", ver);
+	*/
 
 	if (diag >= 3 || hor >= 3 || ver >= 3) //win?
 	{
